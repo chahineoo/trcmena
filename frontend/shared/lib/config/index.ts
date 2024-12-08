@@ -1,0 +1,1 @@
+export { backendGuardarianUrl } from "./backend";

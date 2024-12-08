@@ -1,0 +1,67 @@
+.container {
+  position: relative;
+  min-width: 0;
+}
+
+.input {
+  width: 100%;
+  padding: 27px 24px 9px;
+
+  color: var(--black);
+
+  border-radius: 16px;
+  border: unset;
+  outline: 2px solid var(--lightBlue);
+  outline-offset: -2px;
+
+  transition: var(--easeSpeed) outline-color cubic-bezier(var(--easeInX), var(--easeInY), var(--easeOutX), var(--easeOutY));
+}
+
+.input:focus {
+  outline-color: var(--green);
+}
+
+.input.error {
+  outline-color: var(--error);
+}
+
+.input:focus + .placeholder, .input:not(:placeholder-shown) + .placeholder {
+  top: -30%;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.placeholder {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  bottom: 0;
+
+  overflow: hidden;
+  max-width: calc(100% - 48px);
+  height: max-content;
+  margin: auto 0;
+
+  color: var(--mediumGrey);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  pointer-events: none;
+
+  transition: var(--easeSpeed) all cubic-bezier(var(--easeInX), var(--easeInY), var(--easeOutX), var(--easeOutY));
+}
+
+.container {
+  width: 100%;
+}
+
+.checkIcon {
+  position: absolute;
+  right: 24px;
+  top: 21px;
+  bottom: 0;
+
+  width: 26px;
+  height: 22px;
+
+  color: var(--green);
+}

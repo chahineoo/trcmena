@@ -1,0 +1,31 @@
+.textarea {
+  border: unset;
+  outline: none;
+  width: 90%;
+  display: flex;
+  padding: 0 0 9px;
+}
+
+.container {
+  padding-top: 32px;
+  padding-bottom: 1px;
+}
+
+.textarea::-webkit-scrollbar {
+  width: 0;
+}
+
+.textarea:focus + .placeholder, .textarea:not(:placeholder-shown) + .placeholder {
+  padding: 14px 0 1px;
+  top: 0;
+
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.placeholder {
+  top: 1px;
+  bottom: unset;
+
+  padding: 22px 0 0;
+}

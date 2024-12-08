@@ -1,0 +1,85 @@
+.subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+
+.currency {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  padding: 0 16px 0 0;
+}
+
+.button {
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: auto 0 0;
+}
+
+.error {
+  color: var(--error);
+  text-align: center;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.selectedItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.totalTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.totalValue {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.totalSubtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
+}
+
+.selectWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.selectTitle {
+  margin: 0 0 4px;
+
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.inputsWrapper {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, 1fr);
+}

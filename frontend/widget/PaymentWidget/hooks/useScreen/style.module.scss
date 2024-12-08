@@ -1,0 +1,11 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.hidden {
+  position: absolute;
+  display: none;
+  pointer-events: none;
+}

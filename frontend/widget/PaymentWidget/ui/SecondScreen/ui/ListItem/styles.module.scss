@@ -1,0 +1,11 @@
+.item {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 24px;
+}
+
+.image {
+  background: var(--mainGrey);
+  border-radius: 50%;
+}

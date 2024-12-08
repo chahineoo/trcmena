@@ -1,0 +1,7 @@
+.button {
+  gap: 16px;
+}
+
+.button svg {
+  transition: .2s all;
+}

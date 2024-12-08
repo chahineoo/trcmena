@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3fbfb67-9b46-4b54-a7a7-b93c17cc5a73" name="Changes" comment="feat: payment widget completed&#10;&#10;ref: EC-191">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/shared/ui/Fields/Input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/shared/ui/Fields/Input/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/shared/ui/Input/ui/Input/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/shared/ui/Input/ui/Input/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/widget/PaymentWidget/ui/FirstScreen/hooks/useForm.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/widget/PaymentWidget/ui/FirstScreen/hooks/useForm.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/widget/PaymentWidget/ui/FirstScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/widget/PaymentWidget/ui/FirstScreen/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/widget/PaymentWidget/ui/PaymentWidgetContent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/widget/PaymentWidget/ui/PaymentWidgetContent/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/widget/PaymentWidget/ui/common.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/widget/PaymentWidget/ui/common.module.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="feature/EC-191-backend" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/EC-191-backend" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="feat: payment widget completed&#10;&#10;ref: EC-191" />
+        <option name="rewordedMessage" value="feat: payment widget completed&#10;&#10;ref: EC-191" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="0c30fdaa4696d0daf38d7ac6b9de9594a5ea10eb" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:EvercodeLab/trcedu-landing.git&quot;,
+    &quot;accountId&quot;: &quot;69b8b77c-dd9f-44f0-9d18-ccb5fb4ca2b1&quot;
+  }
+}</component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2pTTNHsfAkFHC2fmdlSIVaUMEZm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/EC-191-frontend&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gennadijzozula/Documents/work/trcedu-landing/frontend/assets/images/background&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/Users/gennadijzozula/.nvm/versions/node/v20.18.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;/Users/gennadijzozula/.nvm/versions/node/v20.18.0/bin/npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/gennadijzozula/Documents/work/trcedu-landing/frontend/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/gennadijzozula/Documents/work/trcedu-landing/frontend/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/assets/images/background" />
+      <recent name="$PROJECT_DIR$/frontend/app" />
+      <recent name="$PROJECT_DIR$/frontend/widget/PaymentWidget/ui/PaymentWidgetWrapper" />
+      <recent name="$PROJECT_DIR$/frontend/shared/ui/UnknownAvatar" />
+      <recent name="$PROJECT_DIR$/frontend/shared/ui/Fields/Select" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/assets/images/background" />
+      <recent name="$PROJECT_DIR$/frontend/assets/svg/logo" />
+      <recent name="$PROJECT_DIR$/frontend/assets/svg" />
+      <recent name="$PROJECT_DIR$/frontend/assets/svg/lined" />
+      <recent name="$PROJECT_DIR$/frontend/assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v22.11.0/bin/node" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17890.13" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3fbfb67-9b46-4b54-a7a7-b93c17cc5a73" name="Changes" comment="" />
+      <created>1732789023718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732789023718</updated>
+      <workItem from="1732789024834" duration="17453000" />
+      <workItem from="1732868224459" duration="23716000" />
+      <workItem from="1733126852737" duration="7763000" />
+      <workItem from="1733134632648" duration="1033000" />
+      <workItem from="1733135692520" duration="18250000" />
+      <workItem from="1733214021752" duration="7982000" />
+      <workItem from="1733222022349" duration="2666000" />
+      <workItem from="1733224710149" duration="6344000" />
+      <workItem from="1733300068724" duration="7220000" />
+      <workItem from="1733386857193" duration="714000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: added frontend project">
+      <option name="closed" value="true" />
+      <created>1732789217249</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732789217249</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: added payment widget">
+      <option name="closed" value="true" />
+      <created>1732891089965</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732891089965</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: payment widget completed&#10;&#10;ref: EC-191">
+      <option name="closed" value="true" />
+      <created>1733133960140</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733133960140</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: payment widget completed&#10;&#10;ref: EC-191">
+      <option name="closed" value="true" />
+      <created>1733134738182</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733134738182</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: payment widget completed&#10;&#10;ref: EC-191">
+      <option name="closed" value="true" />
+      <created>1733134847679</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733134847679</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Backend revert">
+      <option name="closed" value="true" />
+      <created>1733134875752</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733134875752</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: payment widget completed&#10;&#10;ref: EC-191">
+      <option name="closed" value="true" />
+      <created>1733141704606</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733141704606</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: payment widget completed&#10;&#10;ref: EC-191">
+      <option name="closed" value="true" />
+      <created>1733141728255</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733141728255</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: payment widget completed&#10;&#10;ref: EC-191">
+      <option name="closed" value="true" />
+      <created>1733144392649</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733144392649</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: payment widget completed&#10;&#10;ref: EC-191">
+      <option name="closed" value="true" />
+      <created>1733221622216</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733221622216</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: payment widget completed&#10;&#10;ref: EC-191">
+      <option name="closed" value="true" />
+      <created>1733221689177</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733221689177</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: payment widget completed&#10;&#10;ref: EC-191">
+      <option name="closed" value="true" />
+      <created>1733232010995</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733232010995</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/EC-191-frontend" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: added frontend project" />
+    <MESSAGE value="feat: added payment widget" />
+    <MESSAGE value="Backend" />
+    <MESSAGE value="Backend revert" />
+    <MESSAGE value="feat: payment widget completed&#10;&#10;ref: EC-191" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: payment widget completed&#10;&#10;ref: EC-191" />
+  </component>
+</project>

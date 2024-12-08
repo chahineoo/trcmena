@@ -1,0 +1,21 @@
+@import '@/app/styles/variables';
+
+.card {
+  position: relative;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 480px;
+  max-width: 100%;
+  height: 604px;
+  padding: 32px;
+
+  border-radius: 24px;
+  background-color: white;
+
+  @media screen and (max-width: $mdScreen) {
+    padding: 16px;
+  }
+}

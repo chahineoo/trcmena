@@ -1,0 +1,108 @@
+.container {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  height: 64px;
+  padding: 0 2px;
+
+  border-radius: 8px;
+  border: unset;
+  background-color: var(--mainGrey);
+  outline: 2px solid var(--border);
+  outline-offset: -2px;
+}
+
+.inputWrapper {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.input {
+  width: 100%;
+  padding: 26px 16px 11px;
+
+  border-radius: 10px;
+  border: unset;
+  background-color: transparent;
+  outline: unset;
+
+  transition: var(--easeSpeed) outline-color cubic-bezier(var(--easeInX), var(--easeInY), var(--easeOutX), var(--easeOutY));
+}
+
+.container.default .input {
+  padding: 0;
+  height: 44px;
+}
+
+.input[type='number']::-webkit-outer-spin-button,
+.input[type='number']::-webkit-inner-spin-button {
+-webkit-appearance: none;
+}
+
+.container.success .inputWrapper input {
+  padding: 26px 16px 11px 16px;
+}
+.container.success {
+  padding: 0 64px 0 2px;
+}
+.container:hover {
+  outline-color: var(--darkBlue);
+}
+
+.container:focus {
+  outline-color: var(--green);
+}
+
+.container.error {
+  outline-color: var(--error);
+}
+
+.input:-webkit-autofill{
+  -webkit-box-shadow: 0 0 0 130px var(--mainGrey) inset !important;
+}
+
+.placeholder {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  bottom: 0;
+
+  overflow: hidden;
+  max-width: calc(100% - 32px);
+  height: max-content;
+  margin: auto 0;
+
+  color: var(--mediumGrey);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  pointer-events: none;
+
+  transition: var(--easeSpeed) all cubic-bezier(var(--easeInX), var(--easeInY), var(--easeOutX), var(--easeOutY));
+}
+
+.input:focus + .placeholder, .input:not(:placeholder-shown) + .placeholder {
+  top: -40%;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.container {
+  width: 100%;
+}
+
+.checkIcon {
+  position: absolute;
+  right: 24px;
+  top: 21px;
+  bottom: 0;
+
+  width: 26px;
+  height: 22px;
+
+  color: var(--green);
+}

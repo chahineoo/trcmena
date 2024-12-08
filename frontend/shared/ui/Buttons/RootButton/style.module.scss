@@ -1,0 +1,52 @@
+.loader {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  padding: 0 24px;
+
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 600;
+  color: white;
+
+  background: var(--brandBlue);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.button[disabled] {
+  pointer-events: none;
+  opacity: .8;
+}
+
+.button:hover {
+  background: var(--lightBlue);
+}
+
+.button:active {
+  background: var(--darkBlue);
+}
+
+.button.isLoading {
+  pointer-events: none;
+  color: transparent;
+}
+
+.button.isLoading > *:not(:nth-child(1)) {
+  opacity: 0;
+}

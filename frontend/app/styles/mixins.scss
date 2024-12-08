@@ -1,0 +1,79 @@
+@import "./variables";
+
+@mixin mainContainer {
+  max-width: var(--lgScreen);
+  margin: 0 auto;
+  padding-left: 80px;
+  padding-right: 80px;
+
+  @media screen and (max-width: $mdScreen) {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  @media screen and (max-width: $lgTablet) {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  @media screen and (max-width: $mdTablet) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@mixin fullWidth {
+  width: calc(100% + 120px * 2);
+  margin: 0 0 0 -120px;
+
+  @media screen and (max-width: $mdScreen) {
+    width: calc(100% + 64px * 2);
+    margin: 0 0 0 -64px;
+  }
+
+  @media screen and (max-width: $lgTablet) {
+    width: calc(100% + 24px * 2);
+    margin: 0 0 0 -24px;
+  }
+
+  @media screen and (max-width: $mdTablet) {
+    width: calc(100% + 16px * 2);
+    margin: 0 0 0 -16px;
+  }
+}
+
+@mixin pageTopSpacing {
+  padding-top: 104px;
+
+  @media screen and (max-width: $mdScreen) {
+    padding-top: 84px;
+  }
+
+  @media screen and (max-width: $mdTablet) {
+    padding-top: 80px;
+  }
+}
+
+@mixin scrollContainer {
+  width: calc(100% + 120px * 2);
+  margin: 0 0 0 -120px;
+  padding: 0 120px;
+
+  @media screen and (max-width: $mdScreen) {
+    width: calc(100% + 64px * 2);
+    margin: 0 0 0 -64px;
+    padding: 0 64px;
+  }
+
+  @media screen and (max-width: $lgTablet) {
+    width: calc(100% + 24px * 2);
+    margin: 0 0 0 -24px;
+    padding: 0 24px;
+  }
+
+  @media screen and (max-width: $mdTablet) {
+    width: calc(100% + 16px * 2);
+    margin: 0 0 0 -16px;
+    padding: 0 16px;
+  }
+}
